@@ -19,3 +19,6 @@
 ### Regressors Chains
 
 ### Multi-Task Regressor
+
+## Probabilistic Networks
+
