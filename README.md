@@ -10,6 +10,8 @@
 
 ### Gated Recurrent Units
 
+## Information Fusion Networks
+
 ## Multi-Ouput Regression
 
 ### Independent Regressors
