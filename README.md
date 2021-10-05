@@ -12,6 +12,11 @@
 
 ## Information Fusion Networks
 
+### Bidirectional Networks
+
+### Residudal Networks
+
+
 ## Multi-Ouput Regression
 
 ### Independent Regressors
