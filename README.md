@@ -16,7 +16,7 @@
 
 ### Independent Regressors
 
-### Regressors Chains
+### Recursive Regressor
 
 ### Multi-Task Regressor
 
