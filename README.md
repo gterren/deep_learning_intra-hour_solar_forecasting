@@ -1,8 +1,18 @@
 # Deep Learning for Intra-Houra Solar Forecasting
 
+This repository contains the files implemented for the different experiments carried out to develop an optimal Deep Learning (DL) intra-hour solar forecasting using infrared ground-based images. The model is based on deep recurrent networks architectures. 
 
+The utils necessary to run the codes are in solar_forecasting_utils_v3,py and feature_extraction_utils.py (posted in this other repository https://github.com/gterren/kernel_intra-hour_solar_forecasting).
+
+The state-of-the-art is implemented in solarnet.py and sunset.py for comparission purposes.
 
 ## Multi-Ouput Regression
+
+The investigation aims first to find an optimaml Multilayer Perceptron architecture (MLP) to perform a multi-output forecast. Later, different recurrent layers are cross-validated to find the optimal combination of feature vector and recurrent architecture. Lastly, the best archicture is implemented and the its structural hyperparameters are cross-validated using variational inference.
+
+### Information Fusion
+
+The objective is to analyzed data adquired from different sensors: solar tracker, pyranometer, sky imager and weather station. In addition, the combination of multiple cloud features and its performances are also analyzed. The different horizons in the forecast are used to derive the Sun intersecting probability of each pixel in the image. Each of the distribution are considered a source of cloud dyanamics features and used in recurrent architecture.
 
 ### Independent Architecture
 
