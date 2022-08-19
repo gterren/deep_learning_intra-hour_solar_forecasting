@@ -37,8 +37,8 @@
             "relation": "isSupplementTo"
         }, 
         {
-            "scheme": "url", 
-            "identifier": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631", 
+            "scheme": "doi", 
+            "identifier": "10.2139/ssrn.4064631", 
             "relation": "isSupplementTo"
         }
     ]
