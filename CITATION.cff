@@ -8,6 +8,6 @@ authors:
   given-names: "Manel"
   orcid: "https://orcid.org/0000-0001-5873-9674"
 title: "Multi-Task Deep Learning for Intra-Hour Solar Forecasting"
-version: 1.04
+version: 1.05
 date-released: 2022-08-18
 url: "https://github.com/gterren/deep_learning_intra-hour_solar_forecasting"
