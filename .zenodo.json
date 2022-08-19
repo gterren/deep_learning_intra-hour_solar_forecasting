@@ -1,9 +1,9 @@
 {
-    "description": "<p>This repository contains the files implemented for the different experiments carried out to develop an optimal Deep Learning (DL) intra-hour solar forecasting using infrared ground-based images. The model is based on deep recurrent networks architectures.</p><p>See pre-print article: <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631'>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631</a></p>006235'><p>See realated data: <a href='https://doi.org/10.5061/dryad.zcrjdfn9m'>https://doi.org/10.5061/dryad.zcrjdfn9m</a></p><p>The utils necessary to run the codes are in solar_forecasting_utils_v3.py and feature_extraction_utils.py (see this repository <a href='https://github.com/gterren/kernel_intra-hour_solar_forecasting'>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631</a>).</p><p>The state-of-the-art is implemented in solarnet.py and sunset.py for comparission purposes.</p><p>Additional funding was provided by the King Felipe VI Endowed Chair of the University of New Mexico.</p>", 
+    "description": "<p>This repository contains the files implemented for the different experiments carried out to develop an optimal Deep Learning (DL) intra-hour solar forecasting using infrared ground-based images. The model is based on deep recurrent networks architectures.</p><p>See pre-print article: <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631'>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631</a></p>006235'><p>See realated data: <a href='https://doi.org/10.5061/dryad.zcrjdfn9m'>https://doi.org/10.5061/dryad.zcrjdfn9m</a></p><p>The state-of-the-art is implemented in solarnet.py and sunset.py for comparission purposes.</p><p>Additional funding was provided by the King Felipe VI Endowed Chair of the University of New Mexico.</p>", 
     "license": "Apache-2.0", 
     "title": "Multi-Task Deep Learning for Intra-Hour Solar Forecasting", 
     "upload_type": "software", 
-    "publication_date": "2022-08-17", 
+    "publication_date": "2022-08-18", 
     "creators": [
         {
             "affiliation": "University of New Mexico", 
