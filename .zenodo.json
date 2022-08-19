@@ -1,5 +1,5 @@
 {
-    "description": "<p>Codes for cloud segmentation in ground-based infrared sky images adquiared using an sky imager mounted on a solar tracker. The codes run in a High Performances Computer. The library for the paralellization is MPI.</p><p>See journal article: <a href='https://www.sciencedirect.com/science/article/pii/S0960148121006674'>https://www.sciencedirect.com/science/article/pii/S0960148121006674</a></p><p>See CEEGE conference article: <a href='https://www.sciencedirect.com/science/article/pii/S2352484721006235'>https://www.sciencedirect.com/science/article/pii/S2352484721006235</a></p><p>See IEEE PES ISGT conference article: <a href='https://ieeexplore.ieee.org/document/9639922'>https://ieeexplore.ieee.org/document/9639922</a></p><p>See realated data: <a href='https://doi.org/10.5061/dryad.zcrjdfn9m'>https://doi.org/10.5061/dryad.zcrjdfn9m</a></p><p>Additional funding was provided by the King Felipe VI Endowed Chair of the University of New Mexico.</p>", 
+    "description": "<p>This repository contains the files implemented for the different experiments carried out to develop an optimal Deep Learning (DL) intra-hour solar forecasting using infrared ground-based images. The model is based on deep recurrent networks architectures.</p><p>See pre-print article: <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631'>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631</a></p>006235'><p>See realated data: <a href='https://doi.org/10.5061/dryad.zcrjdfn9m'>https://doi.org/10.5061/dryad.zcrjdfn9m</a></p><p>The utils necessary to run the codes are in solar_forecasting_utils_v3.py and feature_extraction_utils.py (see this repository <a href='https://github.com/gterren/kernel_intra-hour_solar_forecasting'>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631</a>).</p><p>The state-of-the-art is implemented in solarnet.py and sunset.py for comparission purposes.</p><p>Additional funding was provided by the King Felipe VI Endowed Chair of the University of New Mexico.</p>", 
     "license": "Apache-2.0", 
     "title": "Cloud Segmentation in Infrared Sky Images", 
     "upload_type": "software", 
@@ -23,7 +23,12 @@
     "related_identifiers": [
         {
             "scheme": "url", 
-            "identifier": "https://github.com/gterren/cloud_segmentation", 
+            "identifier": "https://github.com/gterren/deep_learning_intra-hour_solar_forecasting", 
+            "relation": "isSupplementTo"
+        }, 
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/gterren/kernel_intra-hour_solar_forecasting", 
             "relation": "isSupplementTo"
         }, 
         {
@@ -33,17 +38,7 @@
         }, 
         {
             "scheme": "doi", 
-            "identifier": "10.1016/j.egyr.2021.08.020", 
-            "relation": "isSupplementTo"
-        },
-              {
-            "scheme": "doi", 
-            "identifier": "10.1016/j.renene.2021.04.141", 
-            "relation": "isSupplementTo"
-        },
-        {
-            "scheme": "doi", 
-            "identifier": "10.1109/ISGTEurope52324.2021.9639922", 
+            "identifier": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064631", 
             "relation": "isSupplementTo"
         }
     ]
