@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/400857039.svg)](https://zenodo.org/badge/latestdoi/400857039)
+
 # Deep Learning for Intra-Houra Solar Forecasting
 
 This repository contains the files implemented for the different experiments carried out to develop an optimal Deep Learning (DL) intra-hour solar forecasting using infrared ground-based images. The model is based on deep recurrent networks architectures. 
